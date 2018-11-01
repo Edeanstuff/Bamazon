@@ -28,9 +28,7 @@ function onStart() {
             name: "which",
             message: "What would you like to purchase?"
         }).then(function (response) {
-            console.log(response);
             idValue = response.which;
-            console.log(idValue);
             question2();
         });
     }
